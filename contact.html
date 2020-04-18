@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Proyecto con JavaScript</title>
+
+		<!-- Estilos CSS -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link id="csstemas" rel="stylesheet" type="text/css" href="css/green.css">
+
+
+		<!-- Archivos JavaScript-->
+
+		<script src="../aprendiendo-jquery/js/jquery-3.4.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+  		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
+  		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+
+		<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+		
+
+
+
+
+	</head>
+	<body>
+		<!-- Themer (Cambiador de temas) -->
+
+		<div id="temas">
+			<div id=green class="themer"></div>
+			<div id=blue class="themer"></div>
+			<div id=red class="themer"></div>
+		</div>
+
+		<section id="global">
+
+			<!-- Cabecera -->
+			<header>
+				<div id="logo">
+					<h1>Proyecto JS</h1>
+				</div>
+
+				<div class="clearfix"></div>
+				<nav id="menu">
+					<ul>
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="clock.html">Reloj</a></li>
+						<li><a href="aboutme.html">Sobre mi</a></li>
+						<li><a href="contact.html">Contacto</a></li>
+					</ul>
+				</nav>
+			</head>
+			<!-- Contenido -->
+
+			<section id="content">
+				<div id="box">
+					<h2>Formulario de Contacto</h2>
+					<!-- Aquí va el formulario -->
+					<form action="" method="POST" id="form_contact">
+
+						<label for="name">Nombre</label>
+						<input type="text" name="name" data-validation="alphanumeric"/>
+						
+						<label for="surname">Apellidos</label>
+						<input type="text" name="surname" data-validation="alphanumeric"/>
+
+						<label for="mail">Email</label>
+						<input type="text" name="mail" data-validation="email"/>
+
+						<label for="sex">Sexo</label>
+						<select name="sex" data-validation="required">
+							<option value="men">Hombre</option>
+							<option value="woman">Mujer</option>
+						</select>	
+
+						<label for="date">Fecha de nacimiento</label>
+						<input type="text" name="date" data-validation="date" data-validation-format="dd-mm-yyyy"/>
+						
+						<label for="years">Años</label>
+						<input type="number" name="years" data-validation="number"/>
+
+						<input type="submit" value="Enviar">
+					</form>
+
+
+				</div>
+				<aside id="sidebar">
+					<div id="about">
+						<h4><span>¿Quién soy?</span></h4>
+						<img src="img/caracol.jpg">
+						<p>
+							Pellentesque tempor, enim congue rhoncus pretium, neque tortor interdum dui, sed tristique odio dui eu ex. Donec ut lacus sit amet dui maximus efficitur.
+						</p>
+					</div>
+
+					<div id="login">
+					<h4><span>Identifícate</span></h4>
+
+					<form>
+						<label for="name">Nombre</label>
+						<input id="name_input" type="text" name="name">
+				
+
+				
+						<label for="email">Correo</label>
+						<input type="email" name="email">
+
+
+						<label for="pass">Contraseña</label>
+						<input id="pass_input" type="pass" name="password">
+
+
+						<input type="submit" value="Entrar"/>
+
+					</form>
+					</div>
+				</aside>
+
+				<div class="clearfix"></div>
+
+			</section>
+
+		</section>
+
+		<footer>
+			Master de JavaScript de Victor Robles &copy;
+
+			<a href="#" class="subir">Ir Arriba</a>
+		</footer>
+	</body>
+
+</html>

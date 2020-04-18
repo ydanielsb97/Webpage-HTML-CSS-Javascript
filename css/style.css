@@ -1,0 +1,262 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.clearfix{
+	float: none;
+	clear: both;
+}
+
+
+#global{
+	width: 65%;
+	margin:0px auto;
+	margin-top: 30px;
+	background: white;
+	padding: 25px;
+	box-shadow: 0px 0px 2px gray;
+}
+
+#logo{
+	font-family: "Verdana", "Arial";
+	font-size: 28px;
+	letter-spacing: 4px;
+	line-height: 75px;
+	color: white;
+	text-align: center;
+	width: 385px;
+	height: 80px;
+	margin-bottom: 20px;
+	float: left;
+	text-transform: uppercase;
+}
+
+#menu{
+	font-family: Helvetica, Arial;
+	width: 100%;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	background: #333;
+}
+
+#menu ul{
+	line-height: 46px;
+	list-style: none;
+}
+
+#menu ul li{
+	line-height: 46px;
+	display: inline-block;
+	transition: all 300ms;
+}
+
+
+#menu a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#posts{
+	width: 60%;
+	float: left;
+	font-family: Helvetica, Arial;
+
+}
+
+.post{
+	padding: 7px;
+}
+
+.post h2{
+	font-size: 30px;
+	color: #333;
+
+}
+
+.post .date{
+	display: block;
+	color: gray;
+	margin-top: 10px;
+}
+
+.post p{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	line-height: 22px;
+	text-align: justify;
+}
+
+.button-more{
+	font-size: 14px;
+	text-align: center;
+	display: block;
+	padding: 15px;
+	color: white;
+	text-decoration: none;
+	margin-top: 10px;
+	width: 70px;
+	margin-bottom: 20px;
+}
+
+
+#sidebar{
+	font-family: Helvetica, Arial;
+	width: 31%;
+	float: right;
+}
+
+#sidebar h4{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+	line-height: 10px;
+	color: #333;
+	background: url("../img/lines.png") repeat-x;
+}
+
+#sidebar h4 span{
+	background: white;
+	padding: 5px;
+}
+
+#sidebar img{
+	width: 100%;
+}
+
+#sidebar p{
+	font-size: 15px;
+	text-align: justify;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="pass"],
+form input[type="number"],
+select{
+	padding: 5px;
+	border-radius: 2px;
+	border:1px solid #ccc;
+	width:80%;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+input[type="submit"]{
+	background: #eee;
+	padding: 10px;
+	border: 1px solid #ccc;
+	color: #333;
+	cursor: pointer;
+}
+
+footer {
+	font-family: Helvetica, Arial;
+	color: white;
+	height: 47px;
+	background: rgba(51, 51, 51, 0.70);
+	margin: 0px auto;
+	width: 65%;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 50px;
+	line-height: 47px;
+}
+
+.bx-wrapper, .bx-viewport {
+	height: 250px !important;
+}
+
+#temas{
+	width: 35px;
+	height: 90px;
+	background: rgba(51, 51, 51, 0.70);
+	display: block;
+	margin-top: 20%;
+	position: fixed;
+	cursor: pointer;
+}
+
+.themer {
+	background: white;
+	height: 20px;
+	width: 20px;
+	display: block;
+	padding-left: 0px auto;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#green{
+	background: green;
+	border: 1px solid black;
+}
+
+#blue{
+	background: blue;
+	border: 1px solid black;
+}
+
+#red{
+	background: red;
+	border: 1px solid black;
+}
+
+.subir{
+	display: block;
+	color: white;
+	text-decoration: none;
+	float: right;
+
+}
+
+#box{
+	width: 60%;
+	float: left;
+	margin-top: 40px;
+}
+
+#acordeon{
+	margin-top: 20px;
+}
+
+h2{
+	font-family: Helvetica, Arial;
+	font-size: 30px;
+	color: #333;	
+}
+
+#reloj{
+	color: #333;
+	font-family: Helvetica, Arial;
+	font-size: 40px;
+	font-weight: bold;
+	border: 5px dashed #333;
+	width: 30%;
+	padding: 30px;
+	margin: 0px auto;
+}
+
+#form_contact{
+	width: 50%;
+	margin-top: 15px;
+	font-family: Helvetica, Arial;
+}
+
+#form_contact label{
+	display: block;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.form-error{
+	float: right;
+	font-size: 11px;
+	background: red;
+	color: white;
+	padding: 10px;
+	width: 65%; 
+}
